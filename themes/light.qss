@@ -1,0 +1,120 @@
+/* Light Theme - Clean & Modern */
+
+/* --- Global --- */
+QWidget {
+    font-family: "Inter", sans-serif;
+    color: #212529;
+    background-color: transparent;
+}
+
+/* --- Cards --- */
+QFrame#card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    border: 1px solid #DEE2E6;
+}
+
+/* --- Typography --- */
+#title_label {
+    font-size: 28px;
+    font-weight: 800; /* ExtraBold */
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+#card_title {
+    font-size: 16px;
+    font-weight: 600; /* SemiBold */
+    color: #495057;
+    padding-bottom: 5px;
+}
+
+/* --- Inputs & Selections --- */
+QLineEdit, QComboBox {
+    background-color: #F8F9FA;
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    color: #212529;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #007BFF;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left-width: 1px;
+    border-left-color: #CED4DA;
+    border-left-style: solid;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+QComboBox::down-arrow {
+    image: url(icons/down_arrow_dark.png); /* Needs an icon */
+}
+
+/* --- Buttons --- */
+#start_button {
+    background-color: #007BFF;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700; /* Bold */
+    border-radius: 10px;
+    border: none;
+}
+#start_button:hover {
+    background-color: #3395ff;
+}
+#start_button:disabled {
+    background-color: #E9ECEF;
+    color: #ADB5BD;
+}
+
+#stop_button {
+    background-color: #6C757D;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+#stop_button:hover {
+    background-color: #5A6268;
+}
+#stop_button:disabled {
+    background-color: transparent;
+    border: 1px solid #E9ECEF;
+    color: #ADB5BD;
+}
+
+#toggle_button {
+    background-color: #E9ECEF;
+    color: #495057;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#toggle_button:hover {
+    background-color: #DEE2E6;
+}
+#toggle_button[active="true"] {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* --- Logs --- */
+QTextEdit {
+    background-color: #F8F9FA;
+    color: #495057;
+    border: none;
+    border-radius: 8px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    padding: 10px;
+}

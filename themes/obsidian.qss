@@ -1,0 +1,112 @@
+/* Obsidian Theme - Calm & Focused */
+
+/* --- Global --- */
+QWidget {
+    font-family: "Inter", sans-serif;
+    color: #abb2bf;
+    background-color: transparent;
+}
+
+/* --- Cards --- */
+QFrame#card {
+    background-color: rgba(40, 44, 52, 0.8);
+    border-radius: 10px;
+    border: 1px solid #3a3f4b;
+}
+
+/* --- Typography --- */
+#title_label {
+    font-size: 28px;
+    font-weight: 800; /* ExtraBold */
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+#card_title {
+    font-size: 16px;
+    font-weight: 600; /* SemiBold */
+    color: #abb2bf;
+    padding-bottom: 5px;
+}
+
+/* --- Inputs & Selections --- */
+QLineEdit, QComboBox {
+    background-color: #1e2124;
+    border: 1px solid #3a3f4b;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border-color: #61afef;
+}
+
+QComboBox::drop-down {
+    border-left: 1px solid #3a3f4b;
+}
+
+QComboBox::down-arrow {
+    image: url(icons/down_arrow_light.png); /* Needs an icon */
+}
+
+/* --- Buttons --- */
+#start_button {
+    background-color: #61afef;
+    color: #1e2124;
+    font-size: 16px;
+    font-weight: 700; /* Bold */
+    border-radius: 10px;
+    border: none;
+}
+#start_button:hover {
+    background-color: #82c0ff;
+}
+#start_button:disabled {
+    background-color: #4b5263;
+    color: #818896;
+}
+
+#stop_button {
+    background-color: #e06c75;
+    color: #1e2124;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+}
+#stop_button:hover {
+    background-color: #ff8b94;
+}
+#stop_button:disabled {
+    background-color: transparent;
+    border: 1px solid #555;
+    color: #555;
+}
+
+#toggle_button {
+    background-color: #3a3f4b;
+    color: #abb2bf;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#toggle_button:hover {
+    background-color: #4b5263;
+}
+#toggle_button[active="true"] {
+    background-color: #61afef;
+    color: #1e2124;
+}
+
+/* --- Logs --- */
+QTextEdit {
+    background-color: #1e2124;
+    color: #abb2bf;
+    border: none;
+    border-radius: 8px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 13px;
+    padding: 10px;
+}

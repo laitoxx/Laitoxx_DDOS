@@ -1,0 +1,114 @@
+/* Matrix Theme - Polished Terminal */
+
+/* --- Global --- */
+QWidget {
+    font-family: "Roboto Mono", monospace;
+    color: #00ff41;
+    background-color: transparent;
+}
+
+/* --- Cards --- */
+QFrame#card {
+    background-color: rgba(0, 20, 0, 0.7);
+    border-radius: 0;
+    border: 1px solid #00ff41;
+}
+
+/* --- Typography --- */
+#title_label {
+    font-size: 28px;
+    font-weight: 700; /* Bold */
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+#card_title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00ff41;
+    padding-bottom: 5px;
+}
+
+/* --- Inputs & Selections --- */
+QLineEdit, QComboBox {
+    background-color: #000000;
+    border: 1px solid #00ff41;
+    border-radius: 0;
+    padding: 12px;
+    font-size: 14px;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    background-color: #111;
+}
+
+QComboBox::drop-down {
+    border-left: 1px solid #00ff41;
+}
+
+QComboBox::down-arrow {
+    image: url(icons/down_arrow_green.png); /* Needs an icon */
+}
+
+/* --- Buttons --- */
+#start_button {
+    background-color: #00ff41;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700; /* Bold */
+    border-radius: 0;
+    border: 1px solid #00ff41;
+}
+#start_button:hover {
+    background-color: #55ff88;
+}
+#start_button:disabled {
+    background-color: #0A140A;
+    color: #33804D;
+    border: 1px solid #33804D;
+}
+
+#stop_button {
+    background-color: transparent;
+    color: #ff4100;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0;
+    border: 1px solid #ff4100;
+}
+#stop_button:hover {
+    background-color: #ff4100;
+    color: #000000;
+}
+#stop_button:disabled {
+    background-color: transparent;
+    border: 1px solid #555;
+    color: #555;
+}
+
+#toggle_button {
+    background-color: transparent;
+    color: #00ff41;
+    border: 1px solid #00ff41;
+    border-radius: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+#toggle_button:hover {
+    background-color: #00ff41;
+    color: #000;
+}
+#toggle_button[active="true"] {
+    background-color: #00ff41;
+    color: #000;
+}
+
+/* --- Logs --- */
+QTextEdit {
+    background-color: #000000;
+    color: #00ff41;
+    border: none;
+    border-radius: 0;
+    font-size: 13px;
+    padding: 10px;
+}
