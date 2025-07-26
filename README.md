@@ -1,7 +1,5 @@
 # Laitoxx DDoS Tool
 
-![photo_2025-07-26_19-00-30](https://github.com/user-attachments/assets/2c100626-57ff-46c7-ade9-3025683d38c9)
-
 ### 🇷🇺 Русский
 
 **Laitoxx DDoS Tool** — это мощный и удобный инструмент с графическим интерфейсом для проведения стресс-тестирования сетей. Он позволяет моделировать различные типы DDoS-атак, чтобы проверить защищенность вашей сети или сервера. Программа создана для образовательных и тестовых целей.
@@ -9,6 +7,8 @@
 ### 🇬🇧 English
 
 **Laitoxx DDoS Tool** is a powerful and user-friendly GUI application for network stress testing. It allows you to simulate various types of DDoS attacks to test the security of your network or server. This tool is intended for educational and testing purposes.
+
+![photo_2025-07-26_19-00-30](https://github.com/user-attachments/assets/2c100626-57ff-46c7-ade9-3025683d38c9)
 
 ---
 
