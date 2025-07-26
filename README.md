@@ -1,6 +1,6 @@
 # Laitoxx DDoS Tool
 
-![Laitoxx Banner]([https://your-image-link-here.com/banner.png](https://i.ibb.co/zWPBmwF8/photo-2025-07-26-19-00-30.jpg)) <!-- Замените на ссылку на изображение, если оно у вас есть -->
+![photo_2025-07-26_19-00-30](https://github.com/user-attachments/assets/2c100626-57ff-46c7-ade9-3025683d38c9)
 
 ### 🇷🇺 Русский
 
